@@ -1,7 +1,7 @@
 name: Hello                             # Workflow 이름
 on: push                                # 워크플로가 실행될 이벤트(여기서는 push 이벤트)
 jobs:                                   # 작업(job) 정의
-  say-hello:                            # 작업 ID 
+  hello:                            # 작업 ID 
     runs-on: ubuntu-latest              # 잡이 실행될 환경(여기서는 최신 우분투) - 러너
     steps:                              # 잡이 실행할 단계들(steps) 정의       
         - run: echo "Hello, World!"     # 첫번째 단계: "Hello, World!" 출력(쉘 명령 실행)
