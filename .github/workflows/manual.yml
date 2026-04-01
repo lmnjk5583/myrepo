@@ -4,7 +4,7 @@ on:
       inputs:                                   # 입력 파라미터명
         greeting:   
             type: string
-            default: Hello                      # 입력 파라미터 기본값
+            default: World                      # 입력 파라미터 기본값
             required: true                      # 입력 파라미터 필수 여부
             description: A cheerful word        # 입력값에 대한 설명
 jobs:
